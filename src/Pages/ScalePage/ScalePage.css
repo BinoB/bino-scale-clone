@@ -1,0 +1,116 @@
+.ai-section {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.ai-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 500px;
+}
+
+.description-block h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.description-block p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+  margin: 10px 0;
+}
+
+.ai-graphic {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.base-platform {
+  position: relative;
+  padding: 20px;
+  background: #111;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.foundation-label {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.models {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.model-group {
+  text-align: center;
+}
+
+.model {
+  background-color: #444;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.pillar {
+  width: 60px;
+  height: 150px;
+  background-color: #666;
+  color: #fff;
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.marketing {
+  background-color: #555;
+}
+.finance {
+  background-color: #666;
+}
+.insurance {
+  background-color: #777;
+}
+.retail {
+  background-color: #888;
+}
+.ecommerce {
+  background-color: #999;
+}
+.legal {
+  background-color: #aaa;
+}
+
+.platform-label {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ddd;
+}

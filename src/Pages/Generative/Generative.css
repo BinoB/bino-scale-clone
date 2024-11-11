@@ -1,0 +1,57 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.ai-providers h2 {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.provider-logos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.provider-card {
+  background-color: #222;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.scale-engine {
+  padding-top: 2rem;
+}
+
+.build-ai-btn {
+  background-color: #444;
+  color: #eee;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.scale-engine h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.scale-engine p {
+  color: #888;
+  font-size: 1rem;
+}
